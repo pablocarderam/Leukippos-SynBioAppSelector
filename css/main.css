@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'chunk-five';
+	/*src: url('../Assets/fonts/ChunkFive/Chunkfive-Ex.ttf');
+	src: url('../Assets/fonts/ChunkFive/Chunkfive.otf');
+	src: url('../Assets/fonts/ChunkFive/Chunkfive-webfont.eot');
+	src: url('../Assets/fonts/ChunkFive/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../Assets/fonts/ChunkFive/Chunkfive-webfont.woff') format('woff'),
+	url('../Assets/fonts/ChunkFive/Chunkfive-webfont.ttf') format('truetype'),
+	url('../Assets/fonts/ChunkFive/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+	*/src: url('http://pablocarderam.pancakeapps.com/AppSelector-Fork1/Assets/fonts/ChunkFive/Chunkfive-Ex.ttf');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: chunk-five;
+}
