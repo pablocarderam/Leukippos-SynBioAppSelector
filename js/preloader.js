@@ -52,9 +52,9 @@ var images = [dnaSkin, dnaToRnaSkin, rnaSkin, rnaToProtSkin, protSkin, infoSkin,
 
 /*******PRELOADER*******/
 function preload(assets) {
-	ctx.font = "20px chunk-five"; 
+	ctx.font = "20px chunk-five";
 	ctx.fillText("...Synthetizing Biology...", 0, 100); //show preloader
-	
+
 	window.onload = function () { // Loads app database adapted from http://www.mikeball.us/blog/using-google-spreadsheets-and-tabletop-js-as-a-web-application-back-end
 		Tabletop.init({
 			key: '0AihSbOSqv8G9dDFJeGRxMVBQU1pQdWJha20zbU9JTFE',
@@ -62,10 +62,10 @@ function preload(assets) {
 				appDirectory = data;
 				//showInfo();
 			},
-			simpleSheet: true 
+			simpleSheet: true
 		});
 	};
-	
+
 	var numLoaded = 0;
 	var total = assets.length;
 	function onload() {
