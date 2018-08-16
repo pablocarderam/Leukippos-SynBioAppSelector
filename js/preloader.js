@@ -57,7 +57,7 @@ function preload(assets) {
 
 	window.onload = function () { // Loads app database adapted from http://www.mikeball.us/blog/using-google-spreadsheets-and-tabletop-js-as-a-web-application-back-end
 		Tabletop.init({
-			key: '0AihSbOSqv8G9dDFJeGRxMVBQU1pQdWJha20zbU9JTFE',
+			key: '1TMlRYiC2gnT6XV8UmWKvIBR1frpAQ8gYk36crbkxPVM',
 			callback: function(data, tabletop) {
 				appDirectory = data;
 				//showInfo();
